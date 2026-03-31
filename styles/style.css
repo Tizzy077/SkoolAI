@@ -632,7 +632,7 @@ form button{
         display: flex;
         flex-direction: column;
         max-width: 343px;
-        max-height: 265px;
+        min-height: 265px;
         padding: 20px;
         gap: 20px;
     }
@@ -646,8 +646,7 @@ form button{
     }
     .upload{
         width: 279px;
-        min-height: 135px;
-        padding: 20px 0px 0px 0px;
+        max-height: 135px;
     }
     .upload img{
         width: 118px;
