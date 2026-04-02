@@ -623,10 +623,11 @@ form button{
     }
     .hero-img img{
         position: static;
-        max-width: 212px;
-        height: auto;
+        max-width: 232px;
+        height: 250px;
         margin-top: -50px;
         transform: none;
+        margin-left: 30px;
     }
     .container{
         display: flex;
